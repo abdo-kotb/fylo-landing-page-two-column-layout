@@ -1,0 +1,165 @@
+/* 1200px */
+@media (max-width: 75em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-img {
+    width: 65rem;
+  }
+
+  .heading-team {
+    font-size: 3.2rem;
+  }
+}
+
+/* 1024px */
+@media (max-width: 64em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .form--hero {
+    flex-direction: column;
+  }
+
+  .email-hero {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .btn--hero,
+  .btn--hero:active {
+    width: 100%;
+  }
+
+  .team {
+    flex-direction: column-reverse;
+    gap: 4.8rem;
+  }
+
+  .team-img {
+    width: 65rem;
+  }
+
+  .team-text-box {
+    display: flex;
+    align-items: center;
+    column-gap: 3.2rem;
+  }
+
+  .team-text {
+    width: unset;
+    max-width: unset;
+  }
+
+  .testimonial:hover {
+    transform: unset;
+  }
+}
+
+/* 784px */
+@media (max-width: 49em) {
+  .hero {
+    flex-direction: column-reverse;
+    gap: 4.8rem;
+    text-align: center;
+  }
+
+  .team-text-box {
+    flex-direction: column;
+  }
+
+  .form--hero {
+    width: unset;
+  }
+
+  .heading-team {
+    text-align: center;
+    margin-bottom: 3.2rem;
+  }
+
+  .team .team-link:link,
+  .team .team-link:visited {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* 640px */
+@media (max-width: 40em) {
+  .header-logo {
+    width: 12.8rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .section-team:before {
+    background-image: url("../images/bg-curve-mobile.svg");
+    top: -4.5%;
+    background-size: 100% 5%;
+  }
+
+  .sign {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btn--sign {
+    width: 100%;
+  }
+
+  .logo--footer {
+    margin-bottom: 4.8rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .social-links {
+    align-self: center;
+  }
+}
+
+/* 432px */
+@media (max-width: 27em) {
+  html {
+    font-size: 50%;
+  }
+
+  .main-nav-list {
+    gap: 2.4rem;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .hero-desc {
+    font-size: 2rem;
+  }
+
+  .heading-team,
+  .heading-sign {
+    font-size: 2.4rem;
+  }
+
+  .sign {
+    max-width: 75%;
+  }
+
+  .form--sign {
+    max-width: 80%;
+  }
+
+  .attribution {
+    font-size: 1.2rem;
+  }
+}
