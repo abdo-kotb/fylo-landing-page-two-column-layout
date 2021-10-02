@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code on Github](https://github.com/abdo-kotb/fylo-landing-page-two-column-layout)
-- [Live Site URL](https://abdo-kotb.github.com/fylo-landing-page-two-column-layout)
+- [Live Site URL](https://abdo-kotb.github.io/fylo-landing-page-two-column-layout/)
 
 ## My process
 
